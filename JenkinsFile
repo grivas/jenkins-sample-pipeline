@@ -1,4 +1,4 @@
-podTemplate(label: "api-gateway-slave") {
+podTemplate(label: "sample-pipeline") {
     node ("sample-pipeline") {
         stage("Stage 1") {
             echo "Hello world"
